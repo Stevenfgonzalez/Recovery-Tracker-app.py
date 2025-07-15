@@ -2,7 +2,7 @@ import json
 import numpy as np
 import os
 import random
-
+from q_learning_agent import QLearningAgent
 class QLearningAgent:
     def __init__(self, actions, state_space=11, alpha=0.1, gamma=0.9, epsilon=0.2, q_table_file="q_table.json"):
         self.actions = actions
