@@ -1,4 +1,23 @@
+import json # phoenix_app.py
+import streamlit as st
+import datetime
 import json
+from pathlib import Path
+
+st.set_page_config(page_title="Phoenix Crisis Companion", layout="wide")
+
+st.title("🔥 Thee Phoenix Project – Crisis Companion")
+st.markdown("Calm. Connected. Ready. \nAlways here when you need it.")
+
+# Store path
+DATA_FILE = Path("phoenix_data.json")
+
+def save_data(data):
+    if DATA_FILE.exists():
+        all_data = json.loads(DATA_FILE.read_text())
+    else:
+        all_data = []
+   
 import numpy as np
 import os
 import random
