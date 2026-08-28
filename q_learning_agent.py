@@ -6,7 +6,7 @@ from pathlib import Path
 
 st.set_page_config(page_title="Phoenix Crisis Companion", layout="wide")
 
-st.title("🔥 Thee Phoenix Project – Crisis Companion")
+st.title("🔥 Safety For Generations – Crisis Companion")
 st.markdown("Calm. Connected. Ready. \nAlways here when you need it.")
 
 # Store path
